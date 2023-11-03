@@ -1,0 +1,72 @@
+:root{
+    --bg_purple: rgb(171, 22, 171);
+    --bg_light_purple : rgb(249, 212, 249);
+    --text_colour : white;
+    --bg_red: red;
+    --bg_yellow: yellow;
+    --bg_light_green:rgb(148, 253, 148);
+    --bg_peru: peru;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body{
+    background-color: var(--bg_light_purple);
+
+}
+.nav ul{
+    display: flex;
+    border: 2px solid black;
+    background-color: var(--bg_purple);
+    color: rgb(250, 250, 250);
+}
+.nav ul li{
+    list-style: none;
+    padding: 30px;
+}
+.image{
+    position:fixed;
+    bottom:3%;
+    right: 3%;
+}
+img{
+    border: 2px solid black;
+    border-radius: 99%;
+}
+.boxes{
+    border:3px solid black;
+    background-color: var(--bg_light_green);
+    margin:10px;
+    display: flex;
+    height: 600px;
+}
+.box{
+    height: 500px;
+    width:500px;
+    border:3px solid rgb(7, 7, 7);
+    margin: 20px 40px 400px 110px;
+    background-color: var(--bg_red);
+}
+.wel_contain{
+    display: flex;
+    justify-content: center;
+}
+.wel{
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 150px;
+    width: 500px;
+    margin:50px;
+    padding: 50px;
+    text-align: center;
+    background-color: var(--bg_peru);
+}
+.foot{
+    border :3px solid rgb(15, 15, 15);
+    background-color: var(--bg_yellow);
+    text-align: center;
+    padding: 30px;;
+    font-weight: bolder;
+}
